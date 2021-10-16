@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <ul >
+      <li> <img class="menu" src="images/icon-menu.svg" alt=""></li>
+      <li> <img src="images/logo.svg" alt="logo"> </li>
+      <li> <a href="#">Collections</a> </li>
+      <li> <a href="#">Men</a>  </li>
+      <li> <a href="#">Women</a> </li>
+      <li> <a href="#"> About</a></li>
+      <li> <a class="contact" href="#">Contact</a> </li>
+      <li> <img class="cart" src="images/icon-cart.svg" alt=""> </li>
+      <li>  <img class="avatar" src="images/image-avatar.png" alt=""></li>
+    </ul>
+    
+  </header>
+  <hr>
+  <div class="mainbody">
+    <div class="left">
+      <div class="container">
+        <div class="mySlides">
+          
+          <img class="img1" src="images/image-product-1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          
+          <img class="img1" src="images/image-product-2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          
+          <img class="img1" src="images/image-product-3.jpg" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          
+          <img class="img1" src="images/image-product-4.jpg" style="width:100%">
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/image-product-1-thumbnail.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/image-product-2-thumbnail.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/image-product-3-thumbnail.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/image-product-4-thumbnail.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <h4>Sneaker Company</h4>
+      <h2>Fall Limited Edition Sneakers</h2>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+    
+      <p class="price">$125.00  <button class="discount">50%</button> </p> 
+      <p class="strike">$250.00</p>
+      
+    
+      
+      <div class="wrapper">
+          <button id="min" class="plus">-</button>
+          <input type="number" value="0"/>
+          <button id="plus" class="plus">+</button>
+
+          <button class="addtocart" ><i class="fas fa-shopping-cart"></i> Add to cart</button>
+      </div>
+      
+      
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+$fontsize: 16px;
+
+body{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-family: 'Kumbh Sans', sans-serif;;
+}
+
+header{
+    margin: 2rem;
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    li{
+        text-decoration: none;
+        float: left;
+        .menu{
+            display: none;
+        }
+        .contact{
+            margin-right: 19rem;
+        }
+        .avatar{
+            width: 35%;
+            height: 40%;
+        }
+        .cart{
+            margin-right: 3rem;
+        }
+    }
+    a{
+        display: block;
+        padding: 0px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 1rem;
+        color: hsl(219, 9%, 45%);
+        
+    }
+}
+
+.mainbody{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.left{
+    padding: 2rem;
+    margin-right: 5rem;
+    *{
+        box-sizing: border-box;
+    }
+      
+    img {
+        vertical-align: middle;
+    }
+      
+    .mySlides {
+        display: none;
+    }
+      
+      
+    .cursor {
+        cursor: pointer;
+    }
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+      
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+      
+      
+    .column {
+        float: left;
+        width: 25%;
+    }
+      
+      
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+    .img1{
+        border-radius: 0.7rem;
+        padding-bottom: 2rem;
+    }
+    .demo{
+        border-radius: 1.9rem;
+        padding: 1rem;
+    }
+}
+
+.right{
+    padding: 2rem;
+    h4{
+        text-transform: uppercase;
+        color: hsl(26, 100%, 55%);
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .price{
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 0px;
+    }
+    .discount{
+        background-color:  hsl(25, 100%, 94%);
+        border: none;
+        border-radius: 0.3rem;
+        color:hsl(26, 100%, 55%) ;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .strike{
+        margin: 0px;
+        text-decoration: line-through;
+        color: hsl(219, 9%, 45%);
+    }
+    .addtocart{
+        width: 15rem;
+        height: 3rem;
+        background-color:hsl(26, 100%, 55%) ;
+        border-radius: 0.3rem;
+        border: none;
+        color: white;
+    }
+    
+    .plus {
+        width: 3rem;
+        line-height: 3rem;
+        color: #fff;
+        font-size: 1.5rem;
+        height: 3rem;
+        border-radius:0.5rem;
+        border: none;
+    }
+    button:disabled {
+        background: #74b9ff;
+    }
+    .wrapper input {
+        width: 3rem;
+        font-size: 1.4rem;
+        text-align: center;
+        border: none;
+        border-radius: .5rem;
+        padding: .6rem;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+}
+
+

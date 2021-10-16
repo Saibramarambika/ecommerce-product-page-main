@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+header {
+  margin: 2rem;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+header li {
+  text-decoration: none;
+  float: left;
+}
+
+header li .menu {
+  display: none;
+}
+
+header li .contact {
+  margin-right: 19rem;
+}
+
+header li .avatar {
+  width: 35%;
+  height: 40%;
+}
+
+header li .cart {
+  margin-right: 3rem;
+}
+
+header a {
+  display: block;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 1rem;
+  color: #68707d;
+}
+
+.mainbody {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.left {
+  padding: 2rem;
+  margin-right: 5rem;
+}
+
+.left * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.left img {
+  vertical-align: middle;
+}
+
+.left .mySlides {
+  display: none;
+}
+
+.left .cursor {
+  cursor: pointer;
+}
+
+.left .prev:hover,
+.left .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left .column {
+  float: left;
+  width: 25%;
+}
+
+.left .active,
+.left .demo:hover {
+  opacity: 1;
+}
+
+.left .img1 {
+  border-radius: 0.7rem;
+  padding-bottom: 2rem;
+}
+
+.left .demo {
+  border-radius: 1.9rem;
+  padding: 1rem;
+}
+
+.right {
+  padding: 2rem;
+}
+
+.right h4 {
+  text-transform: uppercase;
+  color: #ff7d1a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.right h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.right .price {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0px;
+}
+
+.right .discount {
+  background-color: #ffede0;
+  border: none;
+  border-radius: 0.3rem;
+  color: #ff7d1a;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.right .strike {
+  margin: 0px;
+  text-decoration: line-through;
+  color: #68707d;
+}
+
+.right .addtocart {
+  width: 15rem;
+  height: 3rem;
+  background-color: #ff7d1a;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+}
+
+.right .plus {
+  width: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.right button:disabled {
+  background: #74b9ff;
+}
+
+.right .wrapper input {
+  width: 3rem;
+  font-size: 1.4rem;
+  text-align: center;
+  border: none;
+  border-radius: .5rem;
+  padding: .6rem;
+}
+
+.right input::-webkit-outer-spin-button,
+.right input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/*# sourceMappingURL=style.css.map */
